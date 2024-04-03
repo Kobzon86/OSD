@@ -176,7 +176,7 @@ int main()
 	osd.graphic_layer_1.Draw_Box(28,288,542,412,0xFF0000,0,0);
 
 	osd.graphic_layer_1.Draw_Rounded_Box(330,340,620,400,15,DARKRED_24,1,0);
-	osd.graphic_layer_1.Print_String_Alpha(350, 340, SILVER_24, DARKRED_24, arialbold_34, "ananev@synopsys.com");
+	osd.graphic_layer_1.Print_String_Alpha(350, 340, SILVER_24, DARKRED_24, arialbold_34, "Hello");
 
 	osd.graphic_layer_1.Print_String_Alpha(700, 500, WHITE_24, BLUE_DARK, arialbold_34, "Yerevan 2023");
 
