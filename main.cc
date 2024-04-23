@@ -44,7 +44,7 @@
 #define HEIGHT 768
 
 #define CLK_WIZ_BASEADR 0x43C00000U
-
+#define FRAME_BUFFER_ADDR 0x10000000
 
 
 volatile int readed;
@@ -162,7 +162,7 @@ int main()
 	#endif
 #endif
 
-	OSD osd(WIDTH, HEIGHT);
+	OSD osd(WIDTH, HEIGHT,FRAME_BUFFER_ADDR);
 
 	osd.graphic_layer_1.Draw_Box(11,11,630,470,0x20FF40,0,0);
 	osd.graphic_layer_1.Draw_Box(12,12,629,469,0x20FF40,0,0);
